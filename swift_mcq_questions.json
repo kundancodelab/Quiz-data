@@ -1,552 +1,222 @@
 [
   {
-    "question": "What does the keyword 'let' do in Swift? (Q1)",
+    "question": "Which keyword declares a constant in Swift?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "let",
+      "var",
+      "const",
+      "static"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "In Swift, 'let' declares a constant, meaning its value cannot be changed after assignment."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q2)",
+    "question": "What keyword is used to declare a variable that can change?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "const",
+      "var",
+      "let",
+      "func"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "b",
+    "explanation": "'var' declares a variable in Swift, allowing its value to be modified."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q3)",
+    "question": "What does 'if let' primarily do in Swift?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "Unwraps an optional",
+      "Creates a loop",
+      "Defines a function",
+      "Throws an error"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "'if let' is used for optional binding, safely unwrapping an optional if it has a value."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q4)",
+    "question": "How is a function defined in Swift?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "func myFunc()",
+      "function myFunc()",
+      "def myFunc()",
+      "let myFunc()"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "Functions in Swift are defined with the 'func' keyword."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q5)",
+    "question": "What is the role of the 'guard' statement?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "Exits early if condition fails",
+      "Loops through a collection",
+      "Declares a constant",
+      "Catches exceptions"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "'guard' ensures a condition is met, exiting early if it fails."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q6)",
+    "question": "Which syntax correctly declares an array in Swift?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "let arr: [Int] = [1, 2, 3]",
+      "let arr = Int[1, 2, 3]",
+      "let arr: Array = [1, 2, 3]",
+      "let arr[] = [1, 2, 3]"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "Arrays in Swift use '[Type]' syntax for declaration."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q7)",
+    "question": "What feature in Swift handles the possibility of nil?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "Optionals",
+      "Pointers",
+      "Exceptions",
+      "Default parameters"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "Optionals allow variables to have a value or be nil, enhancing safety."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q8)",
+    "question": "How can you force unwrap an optional?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "Using !",
+      "Using ?",
+      "Using *",
+      "Using &"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "The '!' operator force unwraps an optional, but it crashes if nil."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q9)",
+    "question": "What does 'self' represent in a Swift class?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "The current instance",
+      "A static method",
+      "A global variable",
+      "The superclass"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "'self' refers to the current instance of a class, struct, or enum."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q10)",
+    "question": "Which access level allows use outside a module?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "public",
+      "private",
+      "internal",
+      "fileprivate"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "'public' makes a property or method accessible outside its module."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q11)",
+    "question": "What is a closure in Swift?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "A block of code",
+      "A conditional statement",
+      "A class instance",
+      "An error type"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "Closures are self-contained blocks of code that can capture variables."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q12)",
+    "question": "Which is a valid dictionary declaration in Swift?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "let dict: [String: Int] = [\"a\": 1]",
+      "let dict = {String: Int}",
+      "let dict = [String, Int]",
+      "let dict: Dict = [\"a\", 1]"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "Dictionaries use '[Key: Value]' syntax in Swift."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q13)",
+    "question": "What does 'mutating' allow in a struct?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
+      "Modify its properties",
+      "Prevent changes",
       "Create a loop",
-      "Define a function"
+      "Define a constant"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "'mutating' lets a struct or enum method modify its own properties."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q14)",
+    "question": "Which operator provides a default for nil?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "??",
+      "!",
+      "?",
+      "||"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "The '??' nil-coalescing operator returns a default value if an optional is nil."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q15)",
+    "question": "What does 'inout' signify in a function parameter?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "Pass by reference",
+      "Immutable parameter",
+      "Optional parameter",
+      "Return value"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "'inout' allows a function to modify a parameter’s value outside its scope."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q16)",
+    "question": "How is an enum defined in Swift?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "enum Color { case red, blue }",
+      "enum Color(red, blue)",
+      "let enum Color = [red, blue]",
+      "struct Color { red, blue }"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "Enums use the 'enum' keyword with cases in Swift."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q17)",
+    "question": "What does 'lazy' mean for a property?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "Initialized on first access",
+      "Always nil",
+      "Cannot be changed",
+      "Automatically updated"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "'lazy' delays property initialization until it’s first used."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q18)",
+    "question": "Which protocol enables for-in loop iteration?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "Sequence",
+      "Iterator",
+      "Collection",
+      "Codable"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "'Sequence' allows types to be iterated over with a for-in loop."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q19)",
+    "question": "What is Swift’s default access level?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "internal",
+      "public",
+      "private",
+      "open"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "If unspecified, Swift defaults to 'internal' access within the module."
   },
   {
-    "question": "What does the keyword 'let' do in Swift? (Q20)",
+    "question": "How are errors handled in Swift?",
     "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
+      "do-try-catch",
+      "if-else",
+      "guard-else",
+      "switch-case"
     ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q21)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q22)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q23)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q24)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q25)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q26)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q27)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q28)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q29)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q30)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q31)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q32)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q33)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q34)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q35)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q36)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q37)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q38)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q39)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q40)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q41)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q42)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q43)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q44)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q45)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q46)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q47)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q48)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q49)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
-  },
-  {
-    "question": "What does the keyword 'let' do in Swift? (Q50)",
-    "options": [
-      "Declare a constant",
-      "Declare a variable",
-      "Create a loop",
-      "Define a function"
-    ],
-    "answer": "Declare a constant",
-    "explanation": "In Swift, 'let' is used to declare a constant, meaning its value cannot be changed once assigned."
+    "answer": "a",
+    "explanation": "'do-try-catch' is used for error handling with throwing functions."
   }
 ]
